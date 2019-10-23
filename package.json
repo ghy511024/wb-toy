@@ -1,0 +1,17 @@
+{
+  "name": "WB-TOY",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "webpack -w",
+    "build2": "webpack --config ./webpack.editor.config.js"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "babel-loader": "^8.0.6",
+    "css-loader": "^1.0.0",
+    "monaco-editor": "^0.18.1",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.8"
+  }
+}

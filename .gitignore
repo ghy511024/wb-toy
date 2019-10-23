@@ -1,0 +1,14 @@
+.idea/
+.vscode
+.DS_Store
+npm-debug.log
+yarn-error.log
+/node_modules/**
+
+coverage/
+**/node_modules
+**/gitlab/**
+/.rpt2_cache/
+/test/node_modules/**
+/test/rpt2_cache/
+.bit
