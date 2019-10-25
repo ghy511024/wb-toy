@@ -1,0 +1,1 @@
+https://developer.mozilla.org/zh-CN/docs/Web/API/Channel_Messaging_API
