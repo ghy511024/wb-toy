@@ -3,7 +3,8 @@
         "strict": true,
         "moduleResolution": "node",
         "target": "es5",
-        "experimentalDecorators": true
+        "experimentalDecorators": true,
+        "jsx": "preserve"
     },
     "include": [
         "./src/**/*"

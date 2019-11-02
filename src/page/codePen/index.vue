@@ -2,10 +2,8 @@
     <div class="wb-fang-editor">
         <div id="editor"></div>
         <div class="view-panel">
-
         </div>
     </div>
-
 </template>
 
 

@@ -8,15 +8,14 @@ export class Message {
 
     init() {
         window.addEventListener('message', (e) => {
-            let port = e.ports[0];
-            port.onmessage = this.onMessage;
+            this.funStack.forEach((fun) => {
+                fun(e.data)
+            })
         });
     }
 
     onMessage(e: MessageEvent) {
-        this.funStack.forEach((fun) => {
-            fun(e.data)
-        })
+
     }
 
     listen(fun: (data: string) => any) {
